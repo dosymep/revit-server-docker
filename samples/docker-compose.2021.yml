@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  rs2021:
+    build: ../src/rs2021
+    container_name: rs2021
+    ports:
+      - 80:80
+      - 808:808
+    volumes:
+      - ./rs2021:C:/ProgramData/Autodesk/Revit Server 2021/Project

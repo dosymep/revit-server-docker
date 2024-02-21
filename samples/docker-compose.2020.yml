@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  rs2020:
+    build: ../src/rs2020
+    container_name: rs2020
+    ports:
+      - 80:80
+      - 808:808
+    volumes:
+      - ./rs2020:C:/ProgramData/Autodesk/Revit Server 2020/Project

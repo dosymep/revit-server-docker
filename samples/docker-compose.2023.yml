@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  rs2023:
+    build: ../src/rs2023
+    container_name: rs2023
+    ports:
+      - 80:80
+      - 808:808
+    volumes:
+      - ./rs2023:C:/ProgramData/Autodesk/Revit Server 2023/Projects

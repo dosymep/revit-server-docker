@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  rs2022:
+    build: ../src/rs2022
+    container_name: rs2022
+    ports:
+      - 80:80
+      - 808:808
+    volumes:
+      - ./rs2022:C:/ProgramData/Autodesk/Revit Server 2022/Project

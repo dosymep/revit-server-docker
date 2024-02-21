@@ -1,0 +1,14 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+[*.{yml,yaml}]
+charset = utf-8
+
+# Indentation and spacing
+tab_width = 2
+indent_size = 2
+indent_style = space
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = true
