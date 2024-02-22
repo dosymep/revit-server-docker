@@ -2,7 +2,7 @@ version: "3"
 
 services:
   rs2024:
-    build: ./src/rs2024
+    build: ../src/rs2024
     container_name: rs2024
     ports:
       - 80:80
