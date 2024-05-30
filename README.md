@@ -10,4 +10,7 @@ docker-compose -f .\docker-compose.<version>.yml up
 
 ### Launch
 
-Open browser http://localhost/revitserveradmin<version>
+Open browser with link:
+```
+http://localhost/revitserveradmin<version>
+```
