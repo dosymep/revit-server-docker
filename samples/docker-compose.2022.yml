@@ -8,4 +8,4 @@ services:
       - 80:80
       - 808:808
     volumes:
-      - ./rs2022:C:/ProgramData/Autodesk/Revit Server 2022/Project
+      - ./rs2022:C:/ProgramData/Autodesk/Revit Server 2022/Projects

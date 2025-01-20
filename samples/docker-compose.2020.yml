@@ -8,4 +8,4 @@ services:
       - 80:80
       - 808:808
     volumes:
-      - ./rs2020:C:/ProgramData/Autodesk/Revit Server 2020/Project
+      - ./rs2020:C:/ProgramData/Autodesk/Revit Server 2020/Projects
