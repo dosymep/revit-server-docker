@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   rs2025:
     build: ../src/rs2025

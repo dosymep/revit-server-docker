@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   rs2022:
     build: ../src/rs2022

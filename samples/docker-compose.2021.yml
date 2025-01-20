@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   rs2021:
     build: ../src/rs2021

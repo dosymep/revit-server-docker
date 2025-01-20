@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   rs2020:
     build: ../src/rs2020
